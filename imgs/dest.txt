@@ -1,0 +1,135 @@
+      <div class="box">
+        <h2>New York</h2>
+        <img src="i6.jpg" alt="background not found" class="destimg">
+        <a href="#">Read More</a>
+        </div>
+        
+        <div class="box">
+        <h2>Paris, France</h2>
+        <img src="i6.jpg" alt="background not found" class="destimg">
+        <a href="#">Read More</a>
+        </div>
+        
+        <div class="box">
+        <h2>Dubai, U.A.E.</h2>
+        <img src="i6.jpg" alt="background not found" class="destimg">
+        <a href="#">Read More</a>
+        </div>
+        
+        <div class="box">
+        <h2>Rome, Italy</h2>
+        <img src="i6.jpg" alt="background not found" class="destimg">
+        <a href="#">Read More</a>
+        </div>
+        
+        <div class="box">
+        <h2>Havana, Cuba</h2>
+        <img src="i6.jpg" alt="background not found" class="destimg">
+        <a href="#">Read More</a>
+        </div>
+        
+        <div class="box">
+        <h2>Tokyo, Japan</h2>
+        <img src="i6.jpg" alt="background not found" class="destimg">
+        <a href="#">Read More</a>
+        </div>
+        <div class="box">
+        <h2>Antarctica</h2>
+        <img src="i6.jpg" alt="background not found" class="destimg">
+        <a href="#">Read More</a>
+        </div>
+        <div class="box">
+        <h2>Los Angeles</h2>
+        <img src="i6.jpg" alt="background not found" class="destimg">
+        <a href="#">Read More</a>
+        </div>
+        <div class="box">
+        <h2>Hong Kong</h2>
+        <img src="i6.jpg" alt="background not found" class="destimg">
+        <a href="#">Read More</a>
+        </div>
+        <div class="box">
+        <h2>Santiago, Chile</h2>
+        <img src="i6.jpg" alt="background not found" class="destimg">
+        <a href="#">Read More</a>
+        </div>
+        <div class="box">
+        <h2> Cairo, Egypt</h2>
+        <img src="i6.jpg" alt="background not found" class="destimg">
+        <a href="#">Read More</a>
+        </div>
+        <div class="box">
+        <h2>Hanoi, Vietnam</h2>
+        <img src="i6.jpg" alt="background not found" class="destimg">
+        <a href="#">Read More</a>
+        </div>
+        <div class="box">
+        <h2>Hawaii</h2>
+        <img src="i6.jpg" alt="background not found" class="destimg">
+        <a href="#">Read More</a>
+        </div>
+        <div class="box">
+        <h2>Las Vegas</h2>
+        <img src="i6.jpg" alt="background not found" class="destimg">
+        <a href="#">Read More</a>
+        </div>
+        <div class="box">
+        <h2> London, England</h2>
+        <img src="i6.jpg" alt="background not found" class="destimg">
+        <a href="#">Read More</a>
+        </div>
+        <div class="box">
+        <h2>Paris, France</h2>
+        <img src="i6.jpg" alt="background not found" class="destimg">
+        <a href="#">Read More</a>
+        </div>
+        <div class="box">
+        <h2>Maldives</h2>
+        <img src="i6.jpg" alt="background not found" class="destimg">
+        <a href="#">Read More</a>
+        </div>
+        <div class="box">
+        <h2>Machu Picchu, Peru</h2>
+        <img src="i6.jpg" alt="background not found" class="destimg">
+        <a href="#">Read More</a>
+        </div>
+        <div class="box">
+        <h2> The Grand Canyon, Arizona</h2>
+        <img src="i6.jpg" alt="background not found" class="destimg">
+        <a href="#">Read More</a>
+        </div>
+        <div class="box">
+        <h2>Masai Mara, Kenya</h2>
+        <img src="i6.jpg" alt="background not found" class="destimg">
+        <a href="#">Read More</a>
+        </div>
+        <div class="box">
+        <h2>Istanbul, Turkey</h2>
+        <img src="i6.jpg" alt="background not found" class="destimg">
+        <a href="#">Read More</a>
+        </div>
+        <div class="box">
+        <h2>Angkor Wat, Cambodia</h2>
+        <img src="i6.jpg" alt="background not found" class="destimg">
+        <a href="#">Read More</a>
+        </div>
+        <div class="box">
+        <h2>San Francisco, California</h2>
+        <img src="i6.jpg" alt="background not found" class="destimg">
+        <a href="#">Read More</a>
+        </div>
+        <div class="box">
+        <h2>Hong Kong</h2>
+        <img src="i6.jpg" alt="background not found" class="destimg">
+        <a href="#">Read More</a>
+        </div>
+        <div class="box">
+        <h2>Cartagena, Columbia</h2>
+        <img src="i6.jpg" alt="background not found" class="destimg">
+        <a href="#">Read More</a>
+        </div>
+        <div class="box">
+        <h2>Australia</h2>
+        <img src="i6.jpg" alt="background not found" class="destimg">
+        <a href="#">Read More</a>
+        </div>

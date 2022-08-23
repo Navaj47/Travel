@@ -1,0 +1,539 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: darkgray;
+}
+
+.bgimg {
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  width: 101%;
+  height: 100%;
+  margin: -8px 0px 0px -8px;
+  object-fit: cover;
+}
+/* .home::before {
+  content: "";
+  z-index: 777;
+  position: absolute;
+  background: rgba(3, 96, 251, 0.3);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+} */
+
+#nav {
+  background-color: #000000ab;
+  margin-top: -17px;
+  position: fixed;
+  width: 101%;
+  top: 18px;
+  left: 0px;
+  z-index: 1000;
+}
+#nav a {
+  text-decoration: none;
+  display: flex;
+  letter-spacing: 7px;
+  color: #ffffff;
+  font-family: "Metal Mania", cursive;
+
+  text-shadow: 0 0 2px #2200ff, 0 0 2px #2200ff, 0 0 2px #2200ff,
+    0 0 2px #2200ff, 0 0 2px #2200ff, 0 0 2px #2200ff, 0 0 2px #2200ff,
+    0 0 2px #2200ff, 0 0 2px #2200ff, 0 0 2px #2200ff, 0 0 2px #2200ff;
+}
+
+#nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin: -15px 21px;
+  font-size: 25px;
+}
+
+#nav ul {
+  display: inline-block;
+}
+
+.logo {
+  z-index: 100;
+  color: #ffffff;
+  text-shadow: 0px 0px 3px #0001ff, 0px 0px 3px #0001ff, 0px 0px 3px #0001ff,
+    0px 0px 3px #0001ff, 0px 0px 3px #0001ff, 0px 0px 3px #0001ff,
+    0px 0px 3px #0001ff, 0px 0px 3px #0001ff, 0px 0px 3px #0001ff,
+    0px 0px 3px #0001ff;
+  margin: 3px;
+  margin-right: 500px;
+  display: inline-block;
+  text-transform: capitalize;
+  font-family: "Metal Mania", cursive;
+  letter-spacing: 3px;
+  /* background: linear-gradient(
+    103deg,
+    red,
+    orange,
+    yellow,
+    green,
+    cyan,
+    azure,
+    blue,
+    violet,
+    magenta,
+    chartreuse
+  );
+  -webkit-background-clip: text; */
+}
+
+#quat {
+  height: 243px;
+  width: 544px;
+  position: absolute;
+  right: 135px;
+  top: 114px;
+}
+
+.pera {
+  font-size: 55px;
+  color: white;
+  font-family: "Italianno", cursive;
+  text-shadow: 0px 0px 2px #ff0000, 0px 0px 2px #ff0000, 0px 0px 2px #ff0000,
+    0px 0px 2px #ff0000, 0px 0px 2px #ff0000, 0px 0px 2px #ff0000,
+    0px 0px 2px #ff0000, 0px 0px 2px #ff0000, 0px 0px 2px #ff0000,
+    0px 0px 2px #ff0000, 0px 0px 2px #ff0000;
+}
+
+.pera a {
+  background-color: #00000054;
+  border-radius: 8px;
+  color: blue;
+  text-decoration: none;
+  position: absolute;
+  bottom: -7px;
+  right: 50%;
+  border: 2px solid #217f0061;
+  font-size: 26px;
+  padding: 1px;
+  width: 103px;
+  letter-spacing: 7px;
+  font-family: "Courgette", cursive;
+  box-shadow: 2px 2px 3px blue;
+}
+
+/* destination */
+
+#destination {
+  text-align: center;
+}
+
+#destination h1 {
+  margin: -838px 0px 144px 0px;
+  color: red;
+  font-family: "Metal Mania", cursive;
+  letter-spacing: 8px;
+  font-size: 38px;
+  word-spacing: 10px;
+}
+#destination .box {
+  margin: 0px 30px;
+  text-align: center;
+  width: 257px;
+  height: 344px;
+  zoom: 1;
+  display: inline-grid;
+  margin: 0px 31px;
+  box-shadow: 0px 0px 2px -1px black, 0px 0px 2px -1px black,
+    0px 0px 2px -1px black, 0px 0px 2px -1px black, 0px 0px 2px -1px black,
+    0px 0px 2px -1px black, 0px 0px 2px -1px black, 0px 0px 2px -1px black;
+}
+#destination .box h2 {
+  background-color: black;
+  color: red;
+  height: 46px;
+  margin-top: 0;
+  margin-bottom: -2px;
+  border-radius: 7px 7px 0px 0px;
+  font-family: "Eagle Lake", cursive;
+  overflow: hidden;
+}
+#destination .box img {
+  width: 257px;
+  height: 250px;
+  margin-bottom: 12px;
+  margin-top: 1px;
+  border-radius: 0px 0px 7px 7px;
+}
+#destination .box a {
+  text-decoration: none;
+  padding: 7px 49px;
+  font-size: 22px;
+  border-radius: 9px;
+  background-color: white;
+  color: red;
+  letter-spacing: 2px;
+  font-family: "Metal Mania", cursive;
+}
+
+div.scroll {
+  overflow: auto;
+  white-space: nowrap;
+  height: 367px;
+  margin: 0px 0px 194px 0px;
+}
+.bgimg2 {
+  width: 101%;
+  margin-top: 0x;
+  margin: -4px 0px 0px -8px;
+}
+
+/* adventure */
+
+#adventure {
+  text-align: center;
+}
+.advbgimg {
+  width: 1518px;
+  margin-top: 0x;
+  margin: -4px 0px 0px -8px;
+}
+#adventure h1 {
+  margin: -756px 0px 144px 0px;
+  color: red;
+  font-family: "Metal Mania", cursive;
+  letter-spacing: 8px;
+  font-size: 38px;
+  word-spacing: 10px;
+}
+
+#adventure .adv_box {
+  width: 251px;
+  height: 267px;
+  color: #ff0000;
+  display: inline-block;
+  margin: 19px;
+}
+#adventure .adv_box img {
+  height: 180px;
+  width: 180px;
+  border-radius: 100px;
+}
+#adventure .adv_box h2 {
+  color: green;
+  margin-top: 0px;
+}
+/* #adventure .adv_box p {
+} */
+#adventure .adv_box a {
+  text-decoration: none;
+  border: 2px solid white;
+  color: white;
+  padding: 5px;
+  border-radius: 3px;
+  font-family: "Eagle Lake", cursive;
+}
+
+/* products */
+
+#products {
+  text-align: center;
+}
+.prodgimg {
+  width: 1518px;
+  margin-top: 0x;
+  margin: -4px 0px 0px -8px;
+}
+
+#products h1 {
+  margin: -860px 0px 170px 0px;
+  color: red;
+  font-family: "Metal Mania", cursive;
+  letter-spacing: 8px;
+  font-size: 38px;
+  word-spacing: 10px;
+}
+
+.pro_box {
+  width: 251px;
+  height: 311px;
+  color: #ff0000;
+  background-color: white;
+  display: inline-block;
+  margin: 27px;
+  border: 2px solid black;
+  border-radius: 7px;
+  margin-top: 0px;
+}
+
+.proimg {
+  height: 206px;
+  width: 245px;
+  margin: 2px;
+  border-radius: 7px;
+}
+
+.pro_box h2 {
+  color: green;
+  margin: 0px 0px 29px 0px;
+}
+.pro_box a {
+  text-decoration: none;
+  color: rgb(248, 211, 3);
+  padding: 5px;
+  font-family: "Eagle Lake", cursive;
+}
+
+/* last part */
+
+#last {
+}
+#last .lastimg {
+  width: 1519px;
+  height: 500px;
+  margin: -4px 0px -261px -8px;
+}
+#last .last_box {
+  width: 1519px;
+  height: 500px;
+  color: white;
+  background-color: rgb(0 0 0 / 84%);
+  display: inline-block;
+  border-radius: 7px;
+  margin: -243px 0px -7px -8px;
+  text-align: center;
+}
+
+#last .last_in_box {
+  width: 300px;
+  margin: 6px 35px;
+  height: 430px;
+  display: inline-block;
+  overflow: hidden;
+}
+#last .last_in_box h2 {
+  margin: 42px 2px;
+}
+
+#last .last_in_box ul li {
+  list-style: none;
+  font-size: 22px;
+  margin: 42px 51px 29px 2px;
+}
+#last .last_in_box ul li a {
+  text-decoration: none;
+  color: white;
+}
+#last .last_in_box ul li i {
+  color: green;
+  margin-right: 11px;
+  display: inline;
+}
+
+/* hover efects */
+#nav ul li a:hover {
+  text-shadow: 0px 0px 2px #ff0000, 0px 0px 2px #ff0000, 0px 0px 2px #ff0000,
+    0px 0px 2px #ff0000, 0px 0px 2px #ff0000, 0px 0px 2px #ff0000;
+}
+#nav .logo a:hover {
+  text-shadow: 0px 0px 2px #ff0000, 0px 0px 2px #ff0000, 0px 0px 2px #ff0000,
+    0px 0px 2px #ff0000, 0px 0px 2px #ff0000, 0px 0px 2px #ff0000;
+}
+
+/* >>>>>>>>>>>>>      dest.html css      <<<<<<<<<<<<<< */
+
+.destbody {
+  color: black;
+  background-color: white;
+  text-align: center;
+}
+h1 {
+  margin: 55px 0px 30px 0px;
+  color: indigo;
+  font-family: "Eagle Lake", cursive;
+}
+.containar {
+  text-align: start;
+}
+.containar .destbox {
+  width: 810px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 50px;
+  padding: 6px;
+  box-shadow: 0px 0px 10px -2px black;
+  border-radius: 14px;
+}
+.destbox img {
+  width: 809px;
+  border-radius: 7px;
+}
+.destbox h3 {
+  font-family: "Eagle Lake", cursive;
+  color: white;
+  letter-spacing: 4px;
+  word-spacing: 2px;
+  text-shadow: 0px 0px 5px black, 0px 0px 5px black, 0px 0px 5px black,
+    0px 0px 5px black, 0px 0px 5px black, 0px 0px 5px black, 0px 0px 5px black,
+    0px 0px 5px black, 0px 0px 5px black, 0px 0px 5px black, 0px 0px 5px black,
+    0px 0px 5px black, 0px 0px 5px black, 0px 0px 5px black, 0px 0px 5px black,
+    0px 0px 5px black;
+  font-size: 25px;
+}
+.destbox p {
+  text-align: start;
+  font-family: "Zilla Slab", serif;
+  word-spacing: 3px;
+}
+
+/*                   media query                         */
+
+/* @media only screen and (max-width: 600px) {
+  .bgimg {
+    margin: -8px 0px 0px -9px;
+    width: 121.6%;
+  }
+  #nav {
+    width: 100vh;
+    top: -18px;
+  }
+  .logo {
+    font-size: 15px;
+    margin: 35px 250px 0px 4px;
+  }
+  #nav ul {
+  }
+  #nav ul li {
+    font-size: 10px;
+    margin: 0px 11px;
+  }
+  #nav a {
+    letter-spacing: 3px;
+  }
+  #quat {
+    right: -109px;
+    top: 83px;
+    width: 325px;
+  }
+  .pera {
+    font-size: 27px;
+  }
+  .pera a {
+    width: 54px;
+    font-size: 12px;
+    letter-spacing: 4px;
+    bottom: 98px;
+  }
+
+ 
+
+  div.scroll {
+    width: 100vh;
+  }
+
+  #destination h1 {
+    margin: -625px 0px 97px 0px;
+    letter-spacing: 5px;
+    font-size: 24px;
+  }
+
+  .bgimg2 {
+    width: 100vh;
+    height: 700px;
+    margin: -4px 0px 0px -8px;
+  }
+  div.scroll {
+    height: 273px;
+  }
+  #destination .box {
+    width: 201px;
+    height: 266px;
+  }
+  #destination .box img {
+    width: 202px;
+    height: 188px;
+    margin: -6px 0px -1px 0px;
+  }
+
+  #destination .box h2 {
+    height: 39px;
+    margin: 0px 0px -3px 0px;
+  }
+  #destination .box a {
+    padding: 0px;
+    font-size: 20px;
+    border-radius: 5px;
+  }
+
+
+  #adventure {
+  }
+  .advbgimg {
+    width: 100vh;
+    height: 700px;
+    margin: -4px 0px 0px -8px;
+  }
+  #adventure h1 {
+    margin: -604px 0px 97px 0px;
+    letter-spacing: 5px;
+    font-size: 24px;
+  }
+
+  #adventure .adv_box {
+    width: 201px;
+    height: 266px;
+    margin: 0px 9px 0px 9px;
+  }
+  #adventure .adv_box img {
+    width: 144px;
+    height: 144px;
+    margin: 0px 0px 0px 0px;
+  }
+  #adventure .adv_box h2 {
+    height: 39px;
+    margin: 1px 0px 9px 0px;
+  }
+
+  #adventure .adv_box a {
+    padding: 0px;
+    font-size: 20px;
+    border-radius: 5px;
+  }
+
+
+  #products {
+  }
+  .prodgimg {
+    width: 100vh;
+    height: 700px;
+    margin: -4px 0px 0px -8px;
+  }
+
+  #products h1 {
+    margin: -604px 0px 97px 0px;
+    letter-spacing: 5px;
+    font-size: 24px;
+  }
+
+  .pro_box {
+    width: 201px;
+    height: 266px;
+    border: 2px solid;
+    margin: 0px 9px 0px 9px;
+  }
+
+  .proimg {
+    width: 144px;
+    height: 144px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .pro_box h2 {
+    height: 39px;
+    margin: 1px 0px 9px 0px;
+  }
+  .pro_box a {
+    padding: 0px;
+    font-size: 20px;
+    border-radius: 5px;
+  }
+} */
